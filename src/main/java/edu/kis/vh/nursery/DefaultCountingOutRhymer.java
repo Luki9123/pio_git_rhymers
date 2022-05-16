@@ -20,6 +20,7 @@ public class DefaultCountingOutRhymer {
 	}
 
 	protected int lastAdded() {
+
 		if (callCheck())
 			return -1;
 		return numbers[total];
